@@ -1,0 +1,315 @@
+@media(max-width:440px){
+    
+    .ctn div{height:600px!important;}
+    .hidden_content .piece:before{opacity: 1!important;border-radius:0!important;}
+     #contaianer{height:80vh!important;}
+    .letra{font-size:50px!important;}
+}
+
+*{font-family: Montserrat-ExtraBold;}
+
+html,body{overflow-x: hidden;}
+
+
+a:hover{text-decoration: none!important;}
+
+
+.gs p{font-weight: 600;}
+
+#openNav {cursor: pointer;}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+     background-size: cover;
+    background-position: center;
+}
+
+.overlay-content {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #7EE1D6;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+
+.contact{background-image: url(../images/contact.jpg);}
+.price{background-image: url(../images/price.jpg);}
+.about{background-image: url(../images/about.jpg);}
+
+#contaianer{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+#contaianer div{
+		position:absolute;
+		background-position: center center;
+		
+	}
+
+       
+.p1{
+    width: 100%;
+	height: 800px;
+	z-index:0;
+	background-image: url('../images/mountain.jpg');
+    background-size: cover;
+	left: 0px;
+	top: 30px;
+	}      
+       
+
+.p2{
+  
+    background-image: url(../images/me.png);
+    background-size: cover;
+    height: 600px;
+    width: 600px;
+    z-index: 6;
+    top: 10%;
+    left:-1%;
+}
+	
+	
+
+.p3{
+	width: 600px;
+	height: 600px;
+	z-index:4;
+	background-image: url('../images/rock.png');
+    background-size: cover;
+	left:350px;
+	top: 110px;
+	
+}
+.p4{
+	width: 100%;
+	height: 550px;
+	z-index:5;
+	background-image: url('../images/clouds.png');
+	left: 35px;
+	top: 300px;
+   background-size: cover;
+	
+}
+       .p5{
+	width: 100%;
+	height: 500px;
+	z-index:3;
+	background-image: url('../images/clouds.png');
+	left: 160px;
+	top: 250px;
+    background-size: contain;
+           background-repeat: no-repeat;
+	
+}
+  
+       
+.letra{
+    background-image:url(../images/clouds.png);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+	font-weight: 750;
+	font-size: 180px;
+	top: 20%;
+	margin-top: -115px;
+	width: 100%;
+	text-align: center;
+	z-index: 7;
+	text-transform: uppercase;
+    animation:tex 10s ease infinite;
+}
+
+@keyframes tex{
+   0{background-position: 50% 50%;}
+    100%{ background-position: 50% 240%;}
+ 
+}
+
+.owl-carousel{filter: drop-shadow(-1px 6px 3px rgb(56, 159, 204));}
+
+
+
+.owlPic{
+    height: 220px;
+    width: 220px;
+    margin: auto;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background-size: cover;
+    background-position: center;
+}
+.oP-1{background-image: url(../images/owlP-1.jpg);}
+.oP-2{background-image: url(../images/owlP-2.jpg);}
+.oP-3{background-image: url(../images/owlP-3.jpg);}
+.oP-4{background-image: url(../images/owlP-4.jpg);}
+.oP-5{background-image: url(../images/owlP-5.jpg);}
+.oP-6{background-image: url(../images/owlP-6.jpg);}
+.oP-7{background-image: url(../images/owlP-7.jpg);}
+.oP-8{background-image: url(../images/owlP-8.jpg);background-position:70%; }
+
+.wallpaper{
+    background-image: url(../images/mountain2.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+    
+}
+.wallpaper_2{
+    background-image:url(../images/rope.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+.ctn{position: relative;height: 800px;}
+
+.ctn div{
+    position:absolute;
+    top:10%;
+    left:0;
+    background-size:cover;
+    background-position:  bottom;
+    height: 700px;
+    width: 100%;
+}
+
+.mp-1{background-image:url(../images/mp-1.jpg);}
+.mp-2{background-image:url(../images/mp-2.jpg);}
+.mp-3{background-image:url(../images/mp-3.jpg);}
+
+
+
+ 
+.hidden_content{
+    height: 800px;
+    overflow: hidden;
+}
+
+.hidden_content .piece{
+   
+     display:inline-flex;
+    position: relative;
+    top:0;
+    left:0;
+    min-width: 60px;
+    min-height: 60px;
+}
+
+.hidden_content .piece:before{
+ content:''; 
+    position: absolute;
+    background-image: url(../images/hidden.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    transition: 4s;
+    opacity:0;
+    border-radius: 50%;
+}
+
+.hidden_content .piece:hover::before{
+    transition:0s;
+    opacity: 1;
+        width: 500%;
+    height: 500%;
+}
+
+
+
+footer{
+    background-image: url(../images/footer.png);
+    background-size: cover;
+
+}
+
+.kayaking,.hill,.bike{
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin:auto;
+    padding: 15px;
+  
+}
+
+.kayaking{
+    background-image: url(../images/kayaking.png);
+    background-position: bottom;
+}
+
+.hill{background-image:url(../images/hill.png);}
+
+.bike{background-image:url(../images/bike.png);}
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 25px!important;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  box-shadow:0px 4px 11px -1px #000000;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+    color:black;
+   
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.form-control{border-radius: 25px!important;}
